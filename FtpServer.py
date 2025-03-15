@@ -21,3 +21,14 @@ handler.authorizer = authorizer
 server = FTPServer(("192.168.1.10", FTP_PORT), handler)
 print(f"Starting FTP server on port {FTP_PORT}...")
 server.serve_forever()
+
+
+"""
+Steps to Run:
+Install pyftpdlib if you haven't already:
+bash
+Copy code
+pip install pyftpdlib
+Run the script.
+The FTP server will start on port 21, allowing connections with ftpuser and password.
+Modify FTP_DIR, FTP_USER, and FTP_PASS as needed. Let me know if you need enhancements! """
