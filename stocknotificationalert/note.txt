@@ -1,0 +1,5 @@
+go to autorunner.py to run full code
+
+change url and setprice for alert 
+
+works in windows 10 tested and working perfectly 
